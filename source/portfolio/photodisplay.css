@@ -1,0 +1,33 @@
+* { box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #201D83;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header img {
+    float: left;
+    width:7%;
+    margin-left: 1rem;
+}
+
+.header p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: asap;
+    color: white;
+    padding: 1.3rem 2rem;
+    margin: 0;
+}
+
+.display img {
+    margin: 2rem 0 1rem 0 ;
+    width: 100%;
+}
+

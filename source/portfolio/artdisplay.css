@@ -1,0 +1,49 @@
+* { box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #201D83;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header img {
+    float: left;
+    width: 7%;
+    margin-left: 1rem;
+}
+
+.header p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: asap;
+    font-weight: normal;
+    color: white;
+    padding: 1.3rem 2rem;
+    margin: 0 auto;
+}
+
+.display {
+    text-align: center;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.display img {
+    width: 100%;
+    margin: 2rem 0 0.7rem 0 ;
+}
+
+.display p {
+    font-family: asap;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.subtext p{
+    font-size: 1rem;
+    color: 1E1C59;
+}

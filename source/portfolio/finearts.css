@@ -1,0 +1,30 @@
+* { box-sizing: border-box;}
+
+.col-half {
+    float: left;
+    width: 50%;
+}
+
+.col-half img {
+    width: 100%;
+    vertical-align:bottom;
+}
+
+.col-full {
+    float: left;
+    width: 100%;
+}
+
+.col-full img {
+    width: 100%;
+    vertical-align:bottom;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 1rem 1.4rem 2rem 1.4rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+

@@ -1,0 +1,52 @@
+* { box-sizing: border-box;}
+
+.paragraph {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 1.4rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.contactform {
+  margin: 1rem 2rem 3rem 2rem;
+}
+
+.label {
+  font-size: 1.18rem; 
+}
+
+input[type=text], textarea, select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #F25764;
+  border-radius: 9px;
+  font-size: 1rem;
+  margin: 0.9rem 0 2rem 0;
+}
+
+#messagebox {
+  margin-top: 0.9rem;
+}
+
+input[type=send] {
+  background-color: #F25764;
+  color: white;
+  max-width:34%;
+  border-radius: 16px;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  padding: 1rem 0.2rem;
+  font-family: asap;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=send]:hover {
+  background-color:rgba(242, 87, 100, 0.87);
+}
+
+

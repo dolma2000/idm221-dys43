@@ -1,0 +1,93 @@
+* { box-sizing: border-box;}
+
+.greendot {
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.title {
+    height: auto;
+    max-width: 100%;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+/*  - - - - - - - - - - - PORTFOLIO'S INTERNAL NAVIGATION BAR - - - - - - - - - - -*/
+
+
+.navigationbar {
+    text-align: center;
+}
+
+.navigationbar ul {
+    margin-bottom: 1.3rem;   
+}
+.navigationbar ul li {
+    display: inline-block;
+    font-family: futura; 
+    font-size: 1.1rem;     
+}
+
+.navigationbar ul li a {
+    color: #1E1C59;
+    display: block;  
+}
+
+#nav-finearts {
+    padding: 0 1rem 0 1rem;
+}
+
+#nav-current-page {
+    color: #F25764;
+    border-bottom: 3px solid #F25764;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-bottom: 0.5rem;   
+}
+
+/*  - - - - - - - - - - - F O O T E R - - - - - - - - - - -*/
+
+.ftr-container {
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+
+.ftr-img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon3 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.ftr-centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 0.8rem;
+  font-family: asap;
+  color: #1E1C59;
+  text-align: center;
+}

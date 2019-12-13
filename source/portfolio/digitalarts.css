@@ -1,0 +1,45 @@
+* { box-sizing: border-box;}
+
+.col-half {
+    float: left;
+    width: 50%;
+}
+
+.col-half img {
+    width: 100%;
+    vertical-align:bottom;
+}
+
+.col-full {
+    float: left;
+    width: 100%;
+}
+
+.col-full img {
+    width: 100%;
+    vertical-align:bottom;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 1rem 1.4rem 2rem 1.4rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 1.4rem;
+    color: #F25764;
+}
+
+.more {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    background-color: #201D83;
+    color: white;
+    margin: 1.8rem 6.5rem;
+    border-radius: 3rem;
+}
